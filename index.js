@@ -1,8 +1,8 @@
 function sendMail(){
     var params = {
-        from_name: document.getElementById("exampleFormControlInput1").value,
-        email_id: document.getElementById("exampleInputEmail1").value,
-        message: document.getElementById("exampleFormControlTextarea1").value,
+        from_name: document.getElementById("name").value,
+        email_id: document.getElementById("email").value,
+        message: document.getElementById("message").value,
     };
 }
 
@@ -12,9 +12,9 @@ const templateID = "template_ku07uhf";
 emailjs
 .send(serviceID, templateID, params)
 .then((res) =>{
-        document.getElementById("exampleFormControlInput1").value = "";
-        document.getElementById("exampleInputEmail1").value = "";
-        document.getElementById("exampleFormControlTextarea1").value = "";
+        document.getElementById("name").value = "";
+        document.getElementById("email").value = "";
+        document.getElementById("message").value = "";
         console.log(res);
         alert("Your message is delivered to me successfully");
     }
