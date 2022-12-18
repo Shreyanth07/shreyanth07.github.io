@@ -237,8 +237,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #35e888;
   cursor: pointer;
   position: absolute;
-  right: 20px;
-  top: 5px;
+  right: 0px;
   border-radius: 75%;
   transition: all 0.2s ease-in;
 }
