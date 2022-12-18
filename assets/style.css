@@ -1,6 +1,7 @@
-
 html{
   scroll-behavior: smooth;
+  margin: 0;
+  height: 100%;
 }
 
 body {
@@ -9,12 +10,8 @@ body {
   color: #fff;
   position: relative;
   background: transparent;
-}
-
-@media screen and (max-width: 768px) {
-.img-fluid{
-  visibility: visible;
-}
+  margin: 0;
+  height: 100%;
 }
 
 body::before {
@@ -27,6 +24,12 @@ body::before {
   top: 0;
   height: 100vh;
   z-index: -1;
+}
+
+@media screen and (max-width: 768px) {
+.img-fluid{
+  visibility: visible;
+}
 }
 
 @media (min-width: 1024px) {
@@ -225,15 +228,36 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* Menu */
+/* Important Links */
+
+.modal-content .btn-close{
+  background-color: transparent;
+  border: 0;
+  font-size: 30px;
+  color: #35e888;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 5px;
+  border-radius: 75%;
+  transition: all 0.2s ease-in;
+}
+
+.modal-content .btn-close:hover{
+  opacity: 0.5;
+  background: lightgray;
+}
 
 .card {
-  box-shadow: 2px 5px 20px #777;
+  border-radius: 20px;
+  box-shadow: 2px 5px 20px #33f492;
 }
 
 .modal-content {
   background: #040404;
   color: crimson;
+  border-radius: 20px;
+  box-shadow: 2px 5px 20px #33f492;
 }
 
 .modal-content h4{
@@ -270,7 +294,7 @@ element.style {
   gap: 10px;
 }
 .numbercontainer {
-  width: 28vmin;
+  width: 34vmin;
   height: 28vmin;
   display: flex;
   flex-direction: column;
@@ -278,9 +302,13 @@ element.style {
   padding: 1em 0;
   position: relative;
   font-size: 16px;
-  border-radius: 0.5em;
-  background-color: #21242b;
-  border-bottom: 10px solid #18f98f;
+  border-radius: 10em;
+  background-color: transparent;
+  /*box-shadow: 2px 5px 20px #33f492;*/
+  border-bottom: 10px solid #33f492;
+  border-top: 1px solid gray;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
 }
 r {
   color: #18f98f;
@@ -680,7 +708,7 @@ section .container {
   display: flex;
   align-items: center;
   padding: 20px;
-  background: rgba(255, 255, 255, 0.08);
+  background: transparent;
   transition: ease-in-out 0.3s;
 }
 
@@ -706,7 +734,7 @@ section .container {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
-
+/*
 .testimonials .testimonial-item {
   box-sizing: content-box;
   min-height: 320px;
@@ -759,7 +787,6 @@ section .container {
   background: rgba(255, 255, 255, 0.1);
   position: relative;
   border-radius: 6px;
-  position: relative;
   z-index: 1;
 }
 
@@ -786,7 +813,7 @@ section .container {
     margin: 30px 10px;
   }
 }
-
+*/
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
@@ -1170,22 +1197,42 @@ section .container {
 
 #testimonials {
   background: #040404;
+  border-radius: 20px;
   /* background:#2b2b2b; */
 }
 
 .revs {
   padding: 0px;
-  padding-top: 30px;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 .carousel-item.active {
   border: none;
 }
 
-.carousel-inner {
-  min-height:500px;
+.card.m-3{
+  text-align: center;
+  border-width: 100%;
 }
 
+@media (max-width: 768px) {
+  .carousel-inner {
+    min-height:500px;
+  }
+}
+
+@media (max-width: 709px) {
+  .carousel-inner {
+    min-height:300px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .card {
+    text-align: center;
+  }
+}
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
