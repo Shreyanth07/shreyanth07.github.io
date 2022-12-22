@@ -801,13 +801,13 @@ section .container {
   position: absolute;
   inset: 0;
   background: inherit;
-  opacity: 0.4;
+  opacity: 5;
   animation: pulse 1s infinite;
 }
 
 @keyframes pulse {
   to {
-    transform: scale(1.8);
+    transform: scale(2);
     opacity: 0;
   }
 }
