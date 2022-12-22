@@ -32,6 +32,12 @@ body::before {
 }
 }
 
+@media screen and (max-width: 768px) {
+  .img-hov{
+    visibility: visible;
+  }
+  }
+
 @media (min-width: 1024px) {
   body::before {
     background-attachment: fixed;
