@@ -12,6 +12,13 @@ body {
   background: transparent;
   margin: 0;
   height: 100%;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll; 
+}
+
+body::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
 }
 
 body::before {
@@ -369,6 +376,14 @@ element.style {
   background-color: rgb(255, 255, 255, 0.3);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.modal::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
 }
 
 /*--------------------------------------------------------------
