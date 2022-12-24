@@ -220,6 +220,39 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
+# Name spin effect
+--------------------------------------------------------------*/
+.waviy {
+  position: relative;
+}
+.waviy span {
+  position: relative;
+  display: inline-block;
+  font-size: 35px;
+  color: #fff;
+  text-transform: uppercase;
+  animation: flip 2s ease-in;
+  animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
+
+.section-title p {
+  margin: 0;
+  margin: -15px 0 15px 0;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  overflow: hidden;
+  z-index: 1;
+}
+
+/*--------------------------------------------------------------
 # Hover picture effect
 --------------------------------------------------------------*/
 .img-hov{
