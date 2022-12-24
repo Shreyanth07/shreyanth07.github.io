@@ -232,6 +232,59 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
+# Typing effect
+--------------------------------------------------------------*/
+.typing-test{
+  display: grid;
+  place-items: center;
+}
+.typing-demo{
+  width: 24.3ch;
+  animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+  overflow: hidden;
+  border-right: 0.15em solid #35e888;
+  white-space: nowrap;
+  font-family: monospace;
+  font-size: 25px; 
+  color: #848884;
+}
+@keyframes typing{
+  from{
+    width: 0;
+  }
+}
+@keyframes blink{
+  50%{
+    border-color: transparent;
+  }
+}
+
+.typing-test-2{
+  display: grid;
+  place-items: center;
+}
+.typing-demo-2{
+  width: 26.2ch;
+  animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+  overflow: hidden;
+  border-right: 0.15em solid #35e888;
+  white-space: nowrap;
+  font-family: monospace;
+  font-size: 25px; 
+  color: #848884;
+}
+@keyframes typing{
+  from{
+    width: 0;
+  }
+}
+@keyframes blink{
+  50%{
+    border-color: transparent;
+  }
+}
+
+/*--------------------------------------------------------------
 # Important Links
 --------------------------------------------------------------*/
 
