@@ -239,8 +239,8 @@ h1, h2, h3, h4, h5, h6 {
   place-items: center;
 }
 .typing-demo{
-  width: 24.3ch;
-  animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+  width: 11.3ch;
+  animation: typing 1.5s steps(20), blink 0.75s step-end infinite alternate;
   overflow: hidden;
   border-right: 0.15em solid #35e888;
   white-space: nowrap;
@@ -264,8 +264,8 @@ h1, h2, h3, h4, h5, h6 {
   place-items: center;
 }
 .typing-demo-2{
-  width: 26.2ch;
-  animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+  width: 14.3ch;
+  animation: typing 1.5s steps(20), blink 0.75s step-end infinite alternate;
   overflow: hidden;
   border-right: 0.15em solid #35e888;
   white-space: nowrap;
