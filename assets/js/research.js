@@ -435,7 +435,7 @@ const fillData = () => {
                             <img src="${image}" class="imgRes">
                         </span>
                     </div>
-                    <a href="${resLink}" class="paperTitle"> ${title} </a> 
+                    <a href="${resLink}" class="paperTitle" target="_blank"> ${title} </a> 
                     <div class = "authors"> ${authors} </div> 
                     
                     <div class="rConferences"> ${conferences} 
@@ -487,7 +487,7 @@ const fillData2 = () => {
                             <img src="${image}" class="imgRes">
                         </span>
                     </div>
-                    <a href="${resLink}" class="paperTitle"> ${title} </a> 
+                    <a href="${resLink}" class="paperTitle" target="_blank"> ${title} </a> 
                     <div class = "authors"> ${authors} </div> 
                     
                     <div class="rConferences"> ${conferences} 
@@ -518,7 +518,7 @@ const fillData3 = () => {
                             <img src="${image}" class="imgRes">
                         </span>
                     </div>
-                    <a href="${resLink}" class="paperTitle"> ${title} </a> 
+                    <a href="${resLink}" class="paperTitle" target="_blank"> ${title} </a> 
                     <div class = "authors"> ${authors} </div> 
                     
                     <div class="rConferences"> ${conferences} 
