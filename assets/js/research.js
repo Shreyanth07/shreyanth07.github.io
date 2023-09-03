@@ -344,6 +344,17 @@ const research2 = [
 ];
 const research3 = [
   {
+    title: "SentixAI: Enhancing Investment Decisions through Real Time AI-Driven Financial Sentiment Analysis Application",
+    authors:
+      "Shreyanth S and Suwetha PT",
+    conferences:
+      "ROC Number: SW-17174/2023",
+    researchYr: 2023,
+    citebox: "popup1",
+    image: "assets/images/research-page/copyrights/sentix.png",
+	resLink: "",
+  },
+  {
     title: "AI-Driven Email Distrubution Analysis and Market Prediction Application for Enhanced Customer-Centric Product Value Optimization",
     authors:
       "Shreyanth S and Sandiya S",
