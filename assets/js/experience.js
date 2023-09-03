@@ -104,7 +104,14 @@ const volunteershipcards = [
   {
     title: "How Banks Can Harness AI for Data Modernization and Operational Excellence",
     cardImage: "assets/images/blogs-page/modernisation.jpg",
-	blogLink: "https://www.finalyearprojects.in/",
+	blogLink: "",
+    description:
+      "Read More",
+  },
+  {
+    title: "Leveraging Power BI Reports through QR Code",
+    cardImage: "assets/images/blogs-page/powerbi.png",
+	blogLink: "https://datacaffee.com/leveraging-power-bi-reports-through-qr-code/",
     description:
       "Read More",
   },
