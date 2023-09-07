@@ -62,7 +62,7 @@ html[light-mode="dark"] .gallery_section{
 }
 .staggered-grid {
     display: grid;
-    width: 70.75rem;
+    width: 43.75rem;
     min-height: 100vh;
     padding: 2rem 0;
     grid-template-columns: repeat(2, 1fr);
@@ -82,7 +82,7 @@ html[light-mode="dark"] .gallery_section{
 }
 .picture-container {
     background-position: center center;
-    background-size: 100% 100%;
+    background-size: auto 100%;
     background-repeat: no-repeat;
     border-radius: 2rem;
     box-shadow: 0 0 0.75rem 0.25rem rgba(0, 0, 0, 0.1);
@@ -93,9 +93,9 @@ html[light-mode="dark"] .gallery_section{
 .picture-container:hover a {
     opacity: 1;
 }
-.picture-container h3 {
+/*.picture-container h3 {
     text-align: center;
-}
+}*/
 
 div.picture-container:nth-child(1) {
     grid-column-start: 1;
