@@ -149,7 +149,7 @@ const mentor = [
   },
   {
     title: "Databricks Spark-wars",
-    subtitle: "Pre-Finalist - One of the top participants",
+    subtitle: "Finalist - One of the Top Performer",
     image: "assets/images/experience-page/sparkwars.jpg",
     desp: "",
     href: "https://xathon.mettl.com/event/Celebal_Databricks_Spark_Wars",
