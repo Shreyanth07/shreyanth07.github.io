@@ -141,6 +141,20 @@ document.addEventListener("DOMContentLoaded", showCards);
 const hackathonsection = document.querySelector(".hackathon-section");
 const mentor = [
   {
+    title: "Walmart Converge Sparkathon",
+    subtitle: "Participant and Pre-Finalist",
+    image: "assets/images/experience-page/sparkathon.png",
+    desp: "",
+    href: "https://walmart.converge.tech/content/converge/en_in/sparkathon.html",
+  },
+  {
+    title: "Databricks Spark-wars",
+    subtitle: "Pre-Finalist - One of the top participants",
+    image: "assets/images/experience-page/sparkwars.jpg",
+    desp: "",
+    href: "https://xathon.mettl.com/event/Celebal_Databricks_Spark_Wars",
+  },
+  {
     title: "FutureSkills Prime 24Hr AI Challenge",
     subtitle: "Participant and innovative solution approacher",
     image: "assets/images/experience-page/openweaver.jpg",
