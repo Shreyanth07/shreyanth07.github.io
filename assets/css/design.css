@@ -66,7 +66,7 @@ html[light-mode="dark"] .gallery_section{
     min-height: 100vh;
     padding: 2rem 0;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(15, 9rem);
+    grid-template-rows: repeat(7, 9rem);
     grid-gap: 1.5rem;
     animation: fade-and-slide-in 2000ms 1 forwards cubic-bezier(0.17, 0.91, 0.73, 1.03);
 }
@@ -127,131 +127,43 @@ div.picture-container:nth-child(6) {
     grid-row-start: 6;
     grid-row-end: 8;
 }
-div.picture-container:nth-child(7) {
-    grid-column-start: 1;
-    grid-row-start: 7;
-    grid-row-end: 9;
-}
-div.picture-container:nth-child(8) {
-    grid-column-start: 2;
-    grid-row-start: 8;
-    grid-row-end: 10;
-}
-div.picture-container:nth-child(9) {
-    grid-column-start: 1;
-    grid-row-start: 9;
-    grid-row-end: 11;
-}
-div.picture-container:nth-child(10) {
-    grid-column-start: 2;
-    grid-row-start: 10;
-    grid-row-end: 12;
-}
-div.picture-container:nth-child(11) {
-    grid-column-start: 1;
-    grid-row-start: 11;
-    grid-row-end: 13;
-}
-div.picture-container:nth-child(12) {
-    grid-column-start: 2;
-    grid-row-start: 12;
-    grid-row-end: 14;
-}
-div.picture-container:nth-child(13) {
-    grid-column-start: 1;
-    grid-row-start: 13;
-    grid-row-end: 15;
-}
-div.picture-container:nth-child(14) {
-    grid-column-start: 2;
-    grid-row-start: 14;
-    grid-row-end: 16;
-}
 
 .item1 div.picture-container:nth-child(1) {
-    background-image: url(../images/designs/cartoons/best_emp_quart.png);
+    background-image: url(../images/designs/awards/indium.png);
 }
 .item1 div.picture-container:nth-child(2) {
-    background-image: url(../images/designs/cartoons/best_emp_month.png);
+    background-image: url(../images/designs/awards/icdsai.png);
 }
 .item1 div.picture-container:nth-child(3) {
-    background-image: url(../images/designs/cartoons/best_emp_quart.png);
+    background-image: url(../images/designs/awards/editor.png);
 }
 .item1 div.picture-container:nth-child(4) {
-    background-image: url(../images/designs/cartoons/best_emp_month.png);
+    background-image: url(../images/designs/awards/journrev.jpg);
 }
 .item1 div.picture-container:nth-child(5) {
-    background-image: url(../images/designs/cartoons/best_paper_award.png);
+    background-image: url(../images/designs/awards/confrev.png);
 }
 .item1 div.picture-container:nth-child(6) {
-    background-image: url(../images/designs/cartoons/editor.png);
-}
-.item1 div.picture-container:nth-child(7) {
-    background-image: url(../images/designs/cartoons/peer_review.png);
-}
-.item1 div.picture-container:nth-child(8) {
-    background-image: url(../images/designs/cartoons/peer_review.png);
-}
-.item1 div.picture-container:nth-child(9) {
-    background-image: url(../images/designs/cartoons/peer_review.png);
-}
-.item1 div.picture-container:nth-child(10) {
-    background-image: url(../images/designs/cartoons/peer_review.png);
-}
-.item1 div.picture-container:nth-child(11) {
-    background-image: url(../images/designs/cartoons/peer_review.png);
-}
-.item1 div.picture-container:nth-child(12) {
-    background-image: url(../images/designs/cartoons/best_proj.png);
-}
-.item1 div.picture-container:nth-child(13) {
-    background-image: url(../images/designs/cartoons/presentation.jpg);
-}
-.item1 div.picture-container:nth-child(14) {
-    background-image: url(../images/designs/cartoons/UG_scholarship.jpg);
+    background-image: url(../images/designs/awards/AU.png);
 }
 
 .item2 div.picture-container:nth-child(1) {
-    background-image: url(../images/designs/cartoons/event.png);
+    background-image: url(../images/designs/awards/sympo.jpg);
 }
 .item2 div.picture-container:nth-child(2) {
-    background-image: url(../images/designs/cartoons/ieee.jpg);
+    background-image: url(../images/designs/awards/member.jpg);
 }
 .item2 div.picture-container:nth-child(3) {
-    background-image: url(../images/designs/cartoons/chess.jpg);
+    background-image: url(../images/designs/awards/sports.jpg);
 }
 .item2 div.picture-container:nth-child(4) {
-    background-image: url(../images/designs/cartoons/chess.jpg);
+    background-image: url(../images/designs/awards/ucmas.jpg);
 }
 .item2 div.picture-container:nth-child(5) {
-    background-image: url(../images/designs/cartoons/chess.jpg);
+    background-image: url(../images/designs/awards/cambridge.png);
 }
 .item2 div.picture-container:nth-child(6) {
-    background-image: url(../images/designs/cartoons/chess.jpg);
-}
-.item2 div.picture-container:nth-child(7) {
-    background-image: url(../images/designs/cartoons/ucmas.png);
-}
-.item2 div.picture-container:nth-child(8) {
-    background-image: url(../images/designs/cartoons/blood_donation.png);
-}
-.item2 div.picture-container:nth-child(9) {
-    background-image: url(../images/designs/cartoons/cambridge.png);
-}
-.item2 div.picture-container:nth-child(10) {
-    background-image: url(../images/designs/cartoons/scholarship.jpg);
-}
-.item2 div.picture-container:nth-child(11) {
-    background-image: url(../images/designs/cartoons/cyber_olympiad.png);
-}
-.item2 div.picture-container:nth-child(12) {
-    background-image: url(../images/designs/cartoons/cyber_olympiad.png);
-}
-.item2 div.picture-container:nth-child(13) {
-    background-image: url(../images/designs/cartoons/drawing.png);
-}
-.item2 div.picture-container:nth-child(14) {
-    background-image: url(../images/designs/cartoons/drawing.png);
+    background-image: url(../images/designs/awards/olympiad.jpg);
 }
 
 html[light-mode="dark"] .container_gallery{
