@@ -298,6 +298,17 @@ const research = [
 ];
 const research2 = [
   {
+    title: "Computer Webcam with Motion Detection Unit",
+    authors:
+      "Chilamakuru Nagesh, Dr. Charushila Axay Patel, Trupti Ulhas Ramteke, Thilak Sayila, Dr. Gopal Ghosh, Dr.Sunil Hanmant Khilari, Shreyanth Srikanth, Shaik Mahammad Rameez Arhan",
+    conferences:
+      "Design number: UK 6308357",
+    researchYr: 2023,
+    citebox: "popup1",
+    image: "assets/images/research-page/patents/webcam.png",
+	resLink: "",
+  },
+  {
     title: "IOT based Wearable Device for Monitoring of Vital Body Health Information",
     authors:
       "Hitendra Kumar Lautre, Dr. Govindan Vediyappan, Dr.MMary Adline Priya, Shreyanth Srikanth, Dr. Ravichandran Subramanian, Mr. Kunal Singla, Dinesh Kumar",
