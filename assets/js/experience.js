@@ -102,7 +102,7 @@ const volunteershipcards = [
       "Read More",
   },
   {
-    title: "From Insights to Action: How Banks Can Harness AI for Data Modernization and Operational Excellence",
+    title: "How Banks Can Harness AI for Data Modernization and Operational Excellence",
     cardImage: "assets/images/blogs-page/modernisation.jpg",
 	blogLink: "https://datacaffee.com/ai-for-data-modernization-in-banks/",
     description:
