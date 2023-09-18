@@ -99,15 +99,29 @@
                 </span>
 		<br><br>
 		<span class="header">
-		<a type="button" download style="border:2px solid #858585; border-radius:5px; color:#A2A2A2; text-decoration:none;" onClick="passwd()">Edu Resume</a>
-		<a href="assets/resume/shreyanth_work_resume.pdf" target="_blank" style="border:2px solid #858585; border-radius:5px; color:#A2A2A2; text-decoration:none;">Work Resume</a>
+		<a type="button" download style="border:2px solid #858585; border-radius:5px; color:#A2A2A2; text-decoration:none;" onClick="edpasswd()">Academic Resume</a>
+		</span>
+		<br><br>
+		<span class="header">
+		<!--<a href="assets/resume/shreyanth_work_resume.pdf" target="_blank" style="border:2px solid #858585; border-radius:5px; color:#A2A2A2; text-decoration:none;">Professional Resume</a>-->
+		<a type="button" download style="border:2px solid #858585; border-radius:5px; color:#A2A2A2; text-decoration:none;" onClick="wrkpasswd()">Professional Resume</a>
 		</span>
 		<br><br>
 		<script>
-		function passwd(){
+		function edpasswd(){
 		var password = prompt('Enter the password to download the resume:');
-		if(password == "#Download#"){
+		if(password == "#Education#"){
 		window.open("assets/resume/shreyanth_academic_resume.pdf")    
+		}else{
+		alert("incorrect password!! please reach out to me for password");
+		}
+		}
+		</script>
+		<script>
+		function wrkpasswd(){
+		var password = prompt('Enter the password to download the resume:');
+		if(password == "#Work#"){
+		window.open("assets/resume/shreyanth_work_resume.pdf")    
 		}else{
 		alert("incorrect password!! please reach out to me for password");
 		}
