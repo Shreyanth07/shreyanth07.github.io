@@ -98,9 +98,21 @@
                     data-words="Data Engineer, Data Scientist, Big Data Engineer, Software Engineer, Research Scholar, Inventor, Social Worker"></span>
                 </span>
 		<br><br>
-		<span class="header"><a href="404.html" target="_blank" style="border:2px solid #858585; border-radius:5px; color:#A2A2A2; text-decoration:none;">Edu Resume</a>
-		<a href="assets/resume/shreyanth_work_resume.pdf" target="_blank" style="border:2px solid #858585; border-radius:5px; color:#A2A2A2; text-decoration:none;">Work Resume</a></span>
+		<span class="header">
+		<a type="button" download style="border:2px solid #858585; border-radius:5px; color:#A2A2A2; text-decoration:none;" onClick="passwd()">Edu Resume</a>
+		<a href="assets/resume/shreyanth_work_resume.pdf" target="_blank" style="border:2px solid #858585; border-radius:5px; color:#A2A2A2; text-decoration:none;">Work Resume</a>
+		</span>
 		<br><br>
+		<script>
+		function passwd(){
+		var password = prompt('Enter the password to download the file:');
+		if(password == "#Download#"){
+		window.open("assets/resume/shreyanth_academic_resume.pdf")    
+		}else{
+		alert("incorrect password!! please try again");
+		}
+		}
+		</script>
                 <div>
                     <div class="social-icons">
 
