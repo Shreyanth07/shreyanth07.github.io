@@ -306,7 +306,7 @@ const research2 = [
     researchYr: 2023,
     citebox: "popup1",
     image: "assets/images/research-page/patents/webcam.png",
-	resLink: "",
+	/*patLink: "",*/
   },
   {
     title: "IOT based Wearable Device for Monitoring of Vital Body Health Information",
@@ -317,7 +317,7 @@ const research2 = [
     researchYr: 2023,
     citebox: "popup1",
     image: "assets/images/research-page/patents/wearable_device.png",
-	resLink: "",
+	/*patLink: "",*/
   },
   {
     title: "Artificial Intelligence based nano robotic arm to operate endoscope motion",
@@ -328,7 +328,7 @@ const research2 = [
     researchYr: 2023,
     citebox: "popup1",
     image: "assets/images/research-page/patents/robotic_arm.png",
-	resLink: "",
+	/*patLink: "",*/
   },
   {
     title: "ML based Hierarchical Grid Intelligence within a Power Grid to Control Distribution of Power",
@@ -339,7 +339,7 @@ const research2 = [
     researchYr: 2023,
     citebox: "popup1",
     image: "assets/images/research-page/patents/power_grid.png",
-	resLink: "",
+	/*patLink: "",*/
   },
   {
     title: "System and Method for an Architectural Framework for Design of an Interactive Content Delivery System using Machine Learning Model",
@@ -350,7 +350,7 @@ const research2 = [
     researchYr: 2023,
     citebox: "popup1",
     image: "assets/images/research-page/patents/content_delivery.png",
-	resLink: "",
+	/*patLink: "",*/
   },
 ];
 const research3 = [
@@ -363,7 +363,7 @@ const research3 = [
     researchYr: 2023,
     citebox: "popup1",
     image: "assets/images/research-page/copyrights/sentix.png",
-	resLink: "",
+	/*copyLink: "",*/
   },
   {
     title: "AI-Driven Email Distrubution Analysis and Market Prediction Application for Enhanced Customer-Centric Product Value Optimization",
@@ -374,7 +374,7 @@ const research3 = [
     researchYr: 2023,
     citebox: "popup1",
     image: "assets/images/research-page/copyrights/email_dist.png",
-	resLink: "",
+	/*copyLink: "",*/
   },
   {
     title: "AI Automated Data Quality and Data Lineage Builder Tool for Accurate Data Management, Pipeline and Architecture",
@@ -385,7 +385,7 @@ const research3 = [
     researchYr: 2023,
     citebox: "popup1",
     image: "assets/images/research-page/copyrights/data_quality.png",
-	resLink: "",
+	/*copyLink: "",*/
   },
   {
     title: "An Effective and Improvised Application for Detection of Brain Tumor using Deep Convolution Neural Network",
@@ -396,7 +396,7 @@ const research3 = [
     researchYr: 2023,
     citebox: "popup1",
     image: "assets/images/research-page/copyrights/brain_tumor.png",
-	resLink: "",
+	/*copyLink: "",*/
   },
   {
     title: "Enhanced Tool for Efficient Video Organizer and Splitter with Multithreading",
@@ -407,7 +407,7 @@ const research3 = [
     researchYr: 2023,
     citebox: "popup1",
     image: "assets/images/research-page/copyrights/video_organiser.png",
-	resLink: "",
+	/*copyLink: "",*/
   },
   {
     title: "Anomaly detection and report of the jobs posted by scammers using Machine Learning and NLP Algorithm",
@@ -418,7 +418,7 @@ const research3 = [
     researchYr: 2023,
     citebox: "popup1",
     image: "assets/images/research-page/copyrights/anomaly.png",
-	resLink: "",
+	/*copyLink: "",*/
   },
   {
     title: "Multi-Sensor Data Fusion-based Parallel Manipulator with IoT monitoring employing Machine Learning",
@@ -429,7 +429,7 @@ const research3 = [
     researchYr: 2022,
     citebox: "popup1",
     image: "assets/images/research-page/copyrights/multi_sensor.png",
-	resLink: "",
+	/*copyLink: "",*/
   },
 ];
 AOS.init();
@@ -495,7 +495,7 @@ const fillData2 = () => {
     ({
       image,
       title,
-	  resLink,
+      /*patLink,*/
       authors,
       conferences,
       researchYr,
@@ -509,7 +509,7 @@ const fillData2 = () => {
                             <img src="${image}" class="imgRes">
                         </span>
                     </div>
-                    <a href="${resLink}" class="paperTitle" target="_blank"> ${title} </a> 
+                    <a class="paperTitle"> ${title} </a>
                     <div class = "authors"> ${authors} </div> 
                     
                     <div class="rConferences"> ${conferences} 
@@ -526,7 +526,7 @@ const fillData3 = () => {
     ({
       image,
       title,
-	  resLink,
+      /*copyLink,*/
       authors,
       conferences,
       researchYr,
@@ -540,7 +540,7 @@ const fillData3 = () => {
                             <img src="${image}" class="imgRes">
                         </span>
                     </div>
-                    <a href="${resLink}" class="paperTitle" target="_blank"> ${title} </a> 
+                    <a class="paperTitle"> ${title} </a> 
                     <div class = "authors"> ${authors} </div> 
                     
                     <div class="rConferences"> ${conferences} 
