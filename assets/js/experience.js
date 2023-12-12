@@ -110,7 +110,7 @@ const volunteershipcards = [
   },
   {
     title: "Report Publishing in PowerBI to a Larger user base (Part-1)",
-    cardImage: "assets/images/blogs-page/powerbi.png",
+    cardImage: "assets/images/blogs-page/Market-Research.jpg",
 	blogLink: "https://www.indiumsoftware.com/blog/report-publishing-in-powerbi-to-a-larger-user-base/",
     description:
       "Read More",
