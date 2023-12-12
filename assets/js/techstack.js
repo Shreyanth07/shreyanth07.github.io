@@ -7,7 +7,7 @@ const techStackCards2 = document.querySelector(".techstack-box-2");
 const techStack = [
   {
     langImage: "assets/images/techstack-page/indium.png",
-    langName: "Data Engineer (Sept 2020 - Present)",
+    langName: "Data Engineer (Sept 2020 - Oct 2023)",
     langDesc: "<li>Lead ETL/ELT processes, automate data pipelines to transform Source data into Target Environment. Develop dimensional models for transformed data, enhancing data quality and usability in Data warehouses.</li><li>Implementing on real-time data ingestion. Deal with semi-structured and unstructured data formats, ensuring efficient and up-to-date development.</li><li>Build comprehensive analytics platforms from scratch. Also, implement star schema-based business data models, enhancing scalability and reporting capabilities.</li>",
 	compLink: "https://www.indiumsoftware.com/",
   },
