@@ -17,12 +17,12 @@ const techStack = [
     langDesc: "<li>Responsible for end-to-end product lifecycle management, encompassing design, development, and support for both new and existing products.</li><li>Translate product vision and business needs into clear product requirements and architectural solutions, enhancing performance and scalability.</li><li>Lead new product releases, aligning them with business goals, maintaining product roadmaps, and collaborating with technical teams for effective development and issue resolution.</li>",
 	compLink: "https://www.newtonbox.com/",
   },
-  /*{
+  {
     langImage: "assets/images/techstack-page/upwork.png",
     langName: "Software Developer (Nov 2018 - May 2021)",
     langDesc: "<li>Successfully completed 19 projects, with 11 receiving a perfect 5/5 rating for both work quality and timely delivery, maintaining an impressive average rating of 4.75.</li><li>Proficiently generated data analysis charts utilizing customer data, showcasing diverse insights through D3.js and Python.</li><li>Spearheaded the enhancement of product performance, capacity, and scalability by formulating robust architectural and design principles.</li>",
 	compLink: "https://www.upwork.com/",
-  },*/
+  },
 ];
 const techStack2 = [
   {
