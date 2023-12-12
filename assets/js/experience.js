@@ -109,7 +109,14 @@ const volunteershipcards = [
       "Read More",
   },
   {
-    title: "Leveraging Power BI Reports through QR Code",
+    title: "Report Publishing in PowerBI to a Larger user base (Part-1)",
+    cardImage: "assets/images/blogs-page/powerbi.png",
+	blogLink: "https://www.indiumsoftware.com/blog/report-publishing-in-powerbi-to-a-larger-user-base/",
+    description:
+      "Read More",
+  },
+  {
+    title: "Leveraging Power BI Reports through QR Code (Part-2)",
     cardImage: "assets/images/blogs-page/powerbi.png",
 	blogLink: "https://datacaffee.com/leveraging-power-bi-reports-through-qr-code/",
     description:
