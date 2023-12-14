@@ -24,6 +24,9 @@ html[data-theme="light"] {
   --col-icon-dribbble: #ea4c89;
   --col-icon-linkedin: #0e76a8;
   --col-icon-kaggle: #41aff3;
+  --col-icon-educationalresume: #41aff3;
+  --col-icon-professionalresume: #41aff3;
+  --col-icon-medium: #41aff3;
   --col-icon-github: #24292e;
   --col-icon-instagram: rgb(201, 94, 174);
   --col-icon-mail: rgb(209, 82, 82);
@@ -52,6 +55,9 @@ html[data-theme="dark"] {
   --col-icon-dribbble: #ea4c89;
   --col-icon-linkedin: #0e76a8;
   --col-icon-kaggle: #41aff3;
+  --col-icon-educationalresume: #41aff3;
+  --col-icon-professionalresume: #41aff3;
+  --col-icon-medium: #41aff3;
   --col-icon-github: #24292e;
   --col-icon-instagram: rgb(201, 94, 174);
   --col-icon-mail: rgb(209, 82, 82);
@@ -680,7 +686,6 @@ Rotate Transition in foote Soical Icon
   }
 }
 
-
 /*
 -----------------------------
  GITHUB MICROANIMATION
@@ -741,6 +746,30 @@ Rotate Transition in foote Soical Icon
 ----------------------------------------
 */
 
+.rounded-social-buttons .social-button.educationalresume {
+  fill: #ffff;
+  background: #2b2a2A;
+  box-shadow: 10px 10px 5px rgb(0 0 0 / 20%);
+}
+
+.rounded-social-buttons .social-button.educationalresume:hover,
+.rounded-social-buttons .social-button.educationalresume:focus {
+  color: #000000;
+  background: #2b2a2A;
+}
+
+.rounded-social-buttons .social-button.professionalresume {
+  fill: #ffff;
+  background: #2b2a2A;
+  box-shadow: 10px 10px 5px rgb(0 0 0 / 20%);
+}
+
+.rounded-social-buttons .social-button.professionalresume:hover,
+.rounded-social-buttons .social-button.professionalresume:focus {
+  color: #000000;
+  background: #2b2a2A;
+}
+
 .rounded-social-buttons .social-button.twitter {
   background: #2b2a2A;
   box-shadow: 10px 10px 5px rgb(0 0 0 / 20%);
@@ -771,6 +800,18 @@ Rotate Transition in foote Soical Icon
 .rounded-social-buttons .social-button.instagram:hover,
 .rounded-social-buttons .social-button.instagram:focus {
   color: #000;
+  background: #2b2a2A;
+}
+
+.rounded-social-buttons .social-button.medium {
+  fill: #ffff;
+  background: #2b2a2A;
+  box-shadow: 10px 10px 5px rgb(0 0 0 / 20%);
+}
+
+.rounded-social-buttons .social-button.medium:hover,
+.rounded-social-buttons .social-button.medium:focus {
+  color: #000000;
   background: #2b2a2A;
 }
 
