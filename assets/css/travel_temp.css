@@ -1,11 +1,50 @@
 /* Travel Vlog Summary section starts */
+html[light-mode="light"] {
+  --bg1-color: #ffffff;
+  --bg-head: #ffffff;
+  --bg-col: #fff;
+  --p-up: black;
+  --bg-cite-y: #f5f5f5;
+  --cite-bg: #fff;
+  --cite-head: rgb(221, 217, 217);
+  --cite-col-txt: #333;
+  --cite-close: #333;
+  --cite-hover: black;
+  --hover-link: black;
+  --shadow-col1: #a3b1c6;
+  --shadow-col2: #ffffff;
+}
+
+/*Declaring CSS variables for Dark Mode*/
+
+html[light-mode="dark"] {
+  --bg1-color: #272727;
+  --bg-col: rgba(0, 0, 0, 0);
+  --text-gra: ;
+  --bg-txt-img: linear-gradient(315deg, #d5adc8 0%, #ff8489 74%);
+  --txt-fill: transparent;
+  --p-up: #fff;
+  --bg-head: rgba(0, 0, 0, 0.877);
+  --bg-head-img: rgba(0, 0, 0, 0.877);
+  --bg-cite-y: rgba(0, 0, 0, 0.877);
+  --black-two: rgba(0, 0, 0, 0.877);
+  --cite-head: rgb(59, 55, 55);
+  --cite-bg: black;
+  --cite-col-txt: #fff;
+  --cite-close: rgba(0, 0, 0, 0.192);
+  --cite-hover: #fff;
+  --hover-link: rgb(236, 103, 125);
+  --shadow-col1: rgb(29, 28, 28);
+  --shadow-col2: rgba(34, 34, 34, 0.459);
+}
+
 *, *:before, *:after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 body {
-    background: whitesmoke; /* #1f1f1f */
+    background: var(--bg-col) !important;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 .cont {
@@ -384,7 +423,7 @@ body {
 
 /*hero section starts*/
 .hero {
-    background-color: white;
+    /*background-color: white;*/
     display: flex;
     height: 100vh;
 }
@@ -396,7 +435,7 @@ body {
     background-size: 350px;
 }
 .hero .item2 {
-    background-color: white; 
+    /*background-color: white; */
     width: 50%;
     display: flex;
     flex-direction: column;
