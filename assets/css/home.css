@@ -109,7 +109,7 @@ body{
   }
 }
 
-#bigBox .disableSave {
+.disableSave {
   -webkit-user-select: none; /* Disable text selection on iOS */
   -webkit-touch-callout: none; /* Disable long-press context menu on iOS */
   -webkit-user-drag: none; /* Disable image dragging on some platforms */
