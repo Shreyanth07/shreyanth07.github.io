@@ -179,9 +179,7 @@
                 <div class="referenceDetails">
                     <table id="referenceDetailsTable">
                         <tbody class="pain">
-				<div class="disable-long-press" oncontextmenu="return false;">
                             <!--Fetch data from reference.js-->
-				</div>
                         </tbody>
                     </table>
                 </div>
@@ -195,9 +193,7 @@
         <!-- Hackathon Section -->
 
         <main class="page-content volunteership">
-		 <div class="disable-long-press" oncontextmenu="return false;">
             <!-- Dynamic Hackathon Section -->
-		 </div>
         </main>
     </div>
 
@@ -208,7 +204,6 @@
         <!-- Mentorship Card -->
 
         <main class="">
-		<div class="disable-long-press" oncontextmenu="return false;">
          
             <div class="blog-slider mb-5 mt-5">
                <div class="blog-slider__wrp swiper-wrapper hackathon-section">
@@ -226,7 +221,6 @@
                </div>
                 <div class="blog-slider__pagination"></div>
             </div>
-		</div>
             
         </main>
     </div>
@@ -269,23 +263,6 @@
      </script>
          <script src="assets/js/experience.js"></script>
 	<script src="assets/js/references.js"></script>
-	<script>
-      document.addEventListener('contextmenu', event => {
-	    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-          event.preventDefault();
-      }
-	    event.preventDefault();
-      });
-	document.querySelector('.disable-long-press').addEventListener('touchstart', function(event) {
-		event.preventDefault();
-	});
-      document.addEventListener('keydown', event => {
-        // Disable Ctrl+S (Save As) and Ctrl+Shift+I (Developer Tools)
-        if ((event.ctrlKey && event.key === 's') || (event.ctrlKey && event.shiftKey && event.key === 'I')) {
-          event.preventDefault();
-        }
-      });
-    </script>
 
 </body>
 
