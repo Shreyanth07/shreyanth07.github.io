@@ -88,12 +88,12 @@ const fillData = () => {
       message2,
       absbox_for_linkedin2,
     }) =>
-      (output += `<tr data-aos="zoom-in-left"> 
+      (output += `<tr data-aos="zoom-in-left" class="disable-long-press" oncontextmenu="return false;"> 
                 <td class="imgCol"><img src="${image1}" class="rImg"></td>
                 <td class = "referenceTitleName">
                     <div>
                         <span class="imgResponsive">
-                            <img src="${image1}" class="imgRes" class="disable-long-press" oncontextmenu="return false;">
+                            <img src="${image1}" class="imgRes">
                         </span>
                     </div>
                     <img src="https://img.icons8.com/fluency/48/000000/quote-left.png" class="disable-long-press" oncontextmenu="return false;"/>
@@ -104,7 +104,7 @@ const fillData = () => {
                 </td>
             </tr> 
             
-            <tr data-aos="zoom-in-left"> 
+            <tr data-aos="zoom-in-left" class="disable-long-press" oncontextmenu="return false;"> 
                        
                         <td class = "referenceTitleName">
                             <div>
@@ -112,7 +112,7 @@ const fillData = () => {
                                     <img src="${image2}" class="imgRes">
                                 </span>
                             </div>
-                            <img src="https://img.icons8.com/fluency/48/000000/quote-left.png" class="disable-long-press" oncontextmenu="return false;"/>
+                            <img src="https://img.icons8.com/fluency/48/000000/quote-left.png"/>
                             <a href="${absbox_for_linkedin2}" class="paperTitle" target="_blank">${name2} </a> 
                             <div> ${designation2} </div> <div class="rConferences">
                                 <div class="referenceY">${message2}</div>
