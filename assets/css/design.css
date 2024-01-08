@@ -24,7 +24,10 @@ html[light-mode="dark"] {
 html {
   overflow-x: hidden;
 }
-
+.disableSave {
+  -webkit-user-select: none; /* Disable text selection on iOS */
+  -webkit-touch-callout: none; /* Disable long-press context menu on iOS */
+}
 /* gallery section starts */
 .gallery_section span, .gallery_section b {
     font-size: 1.2rem;
