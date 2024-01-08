@@ -25,6 +25,10 @@ body {
     background: var(--bg-col) !important;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
+.disableSave {
+  -webkit-user-select: none; /* Disable text selection on iOS */
+  -webkit-touch-callout: none; /* Disable long-press context menu on iOS */
+}
 .cont {
     position: relative;
     overflow: hidden;
