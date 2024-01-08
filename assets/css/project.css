@@ -28,7 +28,10 @@ body {
   color: var(--text);
   background-color: var(--bg);
 }
-
+.disableSave {
+  -webkit-user-select: none; /* Disable text selection on iOS */
+  -webkit-touch-callout: none; /* Disable long-press context menu on iOS */
+}
 .projects_head {
   font-weight: bold;
 }
