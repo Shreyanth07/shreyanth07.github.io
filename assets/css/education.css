@@ -32,6 +32,11 @@ html {
   scroll-behavior: smooth;
 }
 
+.disableSave {
+  -webkit-user-select: none; /* Disable text selection on iOS */
+  -webkit-touch-callout: none; /* Disable long-press context menu on iOS */
+}
+
 .education_head {
   font-weight: bold;
 }
