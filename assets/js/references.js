@@ -9,15 +9,15 @@ const references = [
 	sl1: 1,
 	name1 : "Dr. Karthikeyan Saminathan",
         designation1 : "Associate Professor & HoD (AIML) at KPRIET | CEO & Founder - AIQuantalytics (Research Guide)",
-        image1 : "assets/images/recommendations-page/selvi.jpg",
+        image1 : "assets/images/recommendations-page/karthik.jpg",
         message1 : "I am delighted to provide an enthusiastic recommendation for Mr. Shreyanth S, a standout student with whom I have had the pleasure of collaborating on various academic and research projects. Shreyanth's contributions to our research endeavors and coursework have consistently exceeded expectations, showcasing his exceptional intellect and dedication. What sets Shreyanth apart is not only his academic prowess but also his proactive involvement in enhancing the academic environment. He has delivered insightful industry talks, bridging the gap between theory and practice, and actively participated as a committee member in restructuring course curriculums, demonstrating remarkable leadership qualities. Shreyanth's commitment to the academic community is further highlighted through his role as a guest lecturer, where he selflessly shared his knowledge and expertise with fellow students as part of their curriculum for the minors degree in AI. In light of Shreyanth's outstanding academic record, collaborative spirit, and dedication to education, I wholeheartedly endorse him for any assistantship role in a university setting. His diverse skill set and proactive contributions make him an ideal candidate who would undoubtedly excel and positively impact any academic institution or organization. I strongly believe that, Shreyanth is a top-tier applicant, and I recommend him without reservation, confident that he will continue to make significant contributions in all his future academic and professional endeavors. Moreover, I want to express that I am not only willing but genuinely delighted to reconsider Shreyanth for any assistance or collaboration in his post-doctoral career. His passion, dedication, and expertise make him an asset, and I believe he will continue to thrive in advanced academic pursuits.",
 	absbox_for_linkedin1 : "https://www.linkedin.com/in/karthikdecodes/",
         
         sl1:2,
         name2 : "Dr. Selvi R",
         designation2 : "Research Scientist (Information Technology) at Dr. MGR Educational and Research Institute (UG Professor)",
-        image2 : "assets/images/recommendations-page/selvi.jpg",
-        message2 : "",
+        image2 : "assets/images/recommendations-page/selvi.jpeg",
+        message2 : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
 	absbox_for_linkedin2 : "mailto:rcelve@gmail.com",
     },
   {
