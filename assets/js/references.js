@@ -93,10 +93,10 @@ const fillData = () => {
                 <td class = "referenceTitleName">
                     <div>
                         <span class="imgResponsive">
-                            <img src="${image1}" class="imgRes">
+                            <img src="${image1}" class="imgRes" class="disable-long-press" oncontextmenu="return false;">
                         </span>
                     </div>
-                    <img src="https://img.icons8.com/fluency/48/000000/quote-left.png"/>
+                    <img src="https://img.icons8.com/fluency/48/000000/quote-left.png" class="disable-long-press" oncontextmenu="return false;"/>
                     <a href="${absbox_for_linkedin1}" class="paperTitle" target="_blank"> ${name1} </a> 
                     <div> ${designation1} </div> <div class="rConferences">  
                         <div class="referenceY">${message1}</div>
@@ -112,7 +112,7 @@ const fillData = () => {
                                     <img src="${image2}" class="imgRes">
                                 </span>
                             </div>
-                            <img src="https://img.icons8.com/fluency/48/000000/quote-left.png"/>
+                            <img src="https://img.icons8.com/fluency/48/000000/quote-left.png" class="disable-long-press" oncontextmenu="return false;"/>
                             <a href="${absbox_for_linkedin2}" class="paperTitle" target="_blank">${name2} </a> 
                             <div> ${designation2} </div> <div class="rConferences">
                                 <div class="referenceY">${message2}</div>
@@ -128,3 +128,18 @@ const fillData = () => {
   referenceTable.innerHTML = output;
 };
 document.addEventListener("DOMContentLoaded", fillData);
+      document.addEventListener('contextmenu', event => {
+	    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+          event.preventDefault();
+      }
+	    event.preventDefault();
+      });
+	document.querySelector('.disable-long-press').addEventListener('touchstart', function(event) {
+		event.preventDefault();
+	});
+      document.addEventListener('keydown', event => {
+        // Disable Ctrl+S (Save As) and Ctrl+Shift+I (Developer Tools)
+        if ((event.ctrlKey && event.key === 's') || (event.ctrlKey && event.shiftKey && event.key === 'I')) {
+          event.preventDefault();
+        }
+});
