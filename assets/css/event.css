@@ -17,7 +17,10 @@ html[data-theme="dark"] {
   --shadow: 0 4px 8px 0 rgba(104, 102, 102, 0.2);
   --border: none;
 }
-
+.disableSave {
+  -webkit-user-select: none; /* Disable text selection on iOS */
+  -webkit-touch-callout: none; /* Disable long-press context menu on iOS */
+}
 .image-slider .swiper-slide {
   position: relative;
   display: grid;
