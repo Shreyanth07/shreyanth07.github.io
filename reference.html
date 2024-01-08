@@ -281,7 +281,7 @@
       }
 	    event.preventDefault();
       });
-	document.getElementById('disableLongPress').addEventListener('contextmenu', function(event) {
+	document.querySelector('.disable-long-press').addEventListener('touchstart', function(event) {
 		event.preventDefault();
 	});
       document.addEventListener('keydown', event => {
