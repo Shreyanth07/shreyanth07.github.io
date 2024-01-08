@@ -37,6 +37,10 @@ html {
     padding-left: 3.3rem;
   }
 }
+.disableSave {
+  -webkit-user-select: none; /* Disable text selection on iOS */
+  -webkit-touch-callout: none; /* Disable long-press context menu on iOS */
+}
 .head-upper {
   background: var(--bg-txt-img);
   background-clip: text;
