@@ -73,6 +73,31 @@ body {
   -webkit-touch-callout: none; /* Disable long-press context menu on iOS */
   -webkit-user-drag: none; /* Disable image dragging on some platforms */
 }
+.rImg.disable-long-press {
+  -webkit-user-select: none; /* Disable text selection on iOS */
+  -webkit-touch-callout: none; /* Disable long-press context menu on iOS */
+  -webkit-user-drag: none; /* Disable image dragging on some platforms */
+}
+.rImg1.disable-long-press {
+  -webkit-user-select: none; /* Disable text selection on iOS */
+  -webkit-touch-callout: none; /* Disable long-press context menu on iOS */
+  -webkit-user-drag: none; /* Disable image dragging on some platforms */
+}
+.imgRes.disable-long-press {
+  -webkit-user-select: none; /* Disable text selection on iOS */
+  -webkit-touch-callout: none; /* Disable long-press context menu on iOS */
+  -webkit-user-drag: none; /* Disable image dragging on some platforms */
+}
+.paperTitle.disable-long-press {
+  -webkit-user-select: none; /* Disable text selection on iOS */
+  -webkit-touch-callout: none; /* Disable long-press context menu on iOS */
+  -webkit-user-drag: none; /* Disable image dragging on some platforms */
+}
+.rConferences.disable-long-press {
+  -webkit-user-select: none; /* Disable text selection on iOS */
+  -webkit-touch-callout: none; /* Disable long-press context menu on iOS */
+  -webkit-user-drag: none; /* Disable image dragging on some platforms */
+}
 .p-upper {
   color: var(--p-up);
 }
