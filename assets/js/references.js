@@ -88,33 +88,33 @@ const fillData = () => {
       message2,
       absbox_for_linkedin2,
     }) =>
-      (output += `<tr data-aos="zoom-in-left" class="disable-long-press" oncontextmenu="return false;"> 
-                <td class="imgCol"><img src="${image1}" class="rImg"></td>
+      (output += `<tr data-aos="zoom-in-left"> 
+                <td class="imgCol"><img src="${image1}" class="rImg disable-long-press" oncontextmenu="return false;"></td>
                 <td class = "referenceTitleName">
                     <div>
                         <span class="imgResponsive">
-                            <img src="${image1}" class="imgRes">
+                            <img src="${image1}" class="imgRes disable-long-press" oncontextmenu="return false;">
                         </span>
                     </div>
-                    <img src="https://img.icons8.com/fluency/48/000000/quote-left.png"/>
-                    <a href="${absbox_for_linkedin1}" class="paperTitle" target="_blank"> ${name1} </a> 
-                    <div> ${designation1} </div> <div class="rConferences">  
+                    <img src="https://img.icons8.com/fluency/48/000000/quote-left.png" class="disable-long-press" oncontextmenu="return false;"/>
+                    <a href="${absbox_for_linkedin1}" class="paperTitle disable-long-press" oncontextmenu="return false;" target="_blank"> ${name1} </a> 
+                    <div class="disable-long-press" oncontextmenu="return false;"> ${designation1} </div> <div class="rConferences disable-long-press" oncontextmenu="return false;">  
                         <div class="referenceY">${message1}</div>
                     </div>  
                 </td>
             </tr> 
             
-            <tr data-aos="zoom-in-left" class="disable-long-press" oncontextmenu="return false;"> 
+            <tr data-aos="zoom-in-left"> 
                        
                         <td class = "referenceTitleName">
                             <div>
                                 <span class="imgResponsive">
-                                    <img src="${image2}" class="imgRes">
+                                    <img src="${image2}" class="imgRes disable-long-press" oncontextmenu="return false;">
                                 </span>
                             </div>
-                            <img src="https://img.icons8.com/fluency/48/000000/quote-left.png"/>
-                            <a href="${absbox_for_linkedin2}" class="paperTitle" target="_blank">${name2} </a> 
-                            <div> ${designation2} </div> <div class="rConferences">
+                            <img src="https://img.icons8.com/fluency/48/000000/quote-left.png" class="disable-long-press" oncontextmenu="return false;"/>
+                            <a href="${absbox_for_linkedin2}" class="paperTitle disable-long-press" oncontextmenu="return false;" target="_blank">${name2} </a> 
+                            <div class="disable-long-press" oncontextmenu="return false;"> ${designation2} </div> <div class="rConferences disable-long-press" oncontextmenu="return false;">
                                 <div class="referenceY">${message2}</div>
                             </div>
                 
@@ -122,7 +122,7 @@ const fillData = () => {
                             
                            
                         </td>
-                        <td class="imgCol"><img src="${image2}" class="rImg1"></td>
+                        <td class="imgCol"><img src="${image2}" class="rImg1 disable-long-press" oncontextmenu="return false;"></td>
                     </tr>`)
   );
   referenceTable.innerHTML = output;
