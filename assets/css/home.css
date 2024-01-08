@@ -56,6 +56,11 @@ body{
   width: 100%;
 }
 
+.disableSave {
+  -webkit-user-select: none; /* Disable text selection on iOS */
+  -webkit-touch-callout: none; /* Disable long-press context menu on iOS */
+}
+
 .section {
   background-color: rgb(63, 25, 170);
   justify-content: center;
