@@ -96,7 +96,7 @@ const fillData = () => {
                             <img src="${image1}" class="imgRes">
                         </span>
                     </div>
-                    <img src="https://img.icons8.com/fluency/48/000000/quote-left.png" class="disable-long-press" oncontextmenu="return false;"/>
+                    <img src="https://img.icons8.com/fluency/48/000000/quote-left.png"/>
                     <a href="${absbox_for_linkedin1}" class="paperTitle" target="_blank"> ${name1} </a> 
                     <div> ${designation1} </div> <div class="rConferences">  
                         <div class="referenceY">${message1}</div>
