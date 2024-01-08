@@ -57,14 +57,18 @@ body{
   height: 100vh;
   width: 100%;
 }
+
 #bigBox {
   position: relative;
-  width: 600px;
-  height: 400px;
+  width: 80%;
+  max-width: 600px;
+  height: 50vw;
+  max-height: 400px;
+  margin: 0 auto;
   border: 1px solid #000;
-  border-radius: 20px; /* Adjust the border-radius as needed */
+  border-radius: 10px;
   overflow: hidden;
-ox-shadow: var(--col-box-shadow) !important;
+  box-shadow: var(--col-box-shadow) !important;
 }
 
 .partition {
@@ -90,10 +94,21 @@ ox-shadow: var(--col-box-shadow) !important;
 }
 
 .center-image img {
-  width: 100px; /* Adjust as needed */
-  height: 100px; /* Adjust as needed */
+  width: 100px;
+  height: 100px;
   object-fit: cover;
 }
+
+/* Media Queries for different devices */
+@media only screen and (max-width: 768px) {
+  #bigBox {
+    width: 90%;
+    height: 60vw;
+    max-height: 300px;
+    border-radius: 8px;
+  }
+}
+
 #bigBox .disableSave {
   -webkit-user-select: none; /* Disable text selection on iOS */
   -webkit-touch-callout: none; /* Disable long-press context menu on iOS */
