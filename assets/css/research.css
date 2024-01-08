@@ -60,7 +60,10 @@ html {
 body {
   background: var(--bg-col) !important;
 }
-
+.disableSave {
+  -webkit-user-select: none; /* Disable text selection on iOS */
+  -webkit-touch-callout: none; /* Disable long-press context menu on iOS */
+}
 .p-upper {
   color: var(--p-up);
 }
