@@ -116,6 +116,15 @@ body{
   }
 }
 
+/* Fix for bookmark bar */
+@media only screen and (min-width: 1024px) {
+  body::before {
+    content: "";
+    display: block;
+    height: 40px; /* Adjust as needed based on the bookmark bar height */
+  }
+}
+
 .disableSave {
   -webkit-user-select: none; /* Disable text selection on iOS */
   -webkit-touch-callout: none; /* Disable long-press context menu on iOS */
