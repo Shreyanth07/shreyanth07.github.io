@@ -104,7 +104,7 @@ body{
   #bigBox {
     width: 90%;
     height: 60vw;
-    max-height: 300px;
+    max-height: 225px;
     border-radius: 8px;
   }
 }
@@ -112,7 +112,7 @@ body{
 /* Media Query for laptops */
 @media only screen and (min-width: 1024px) {
   #bigBox {
-    height: 300px; /* Adjust as needed */
+    height: 250px; /* Adjust as needed */
   }
 }
 
