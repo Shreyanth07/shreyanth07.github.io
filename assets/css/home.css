@@ -112,7 +112,7 @@ body{
 /* Media Query for laptops */
 @media only screen and (min-width: 1024px) {
   #bigBox {
-    height: 200px; /* Adjust as needed */
+    height: 220px; /* Adjust as needed */
   }
 }
 
