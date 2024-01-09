@@ -110,9 +110,16 @@ body{
 }
 
 /* Media Query for laptops */
-@media only screen and (min-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   #bigBox {
-    height: 250px; /* Adjust as needed */
+    height: 300px; /* Adjust as needed */
+  }
+}
+
+/* Media Query for laptops */
+@media only screen and (max-width: 1200px) {
+  #bigBox {
+    height: 200px; /* Adjust as needed */
   }
 }
 
