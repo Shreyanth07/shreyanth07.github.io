@@ -109,6 +109,13 @@ body{
   }
 }
 
+/* Media Query for laptops */
+@media only screen and (min-width: 1024px) {
+  #bigBox {
+    height: 300px; /* Adjust as needed */
+  }
+}
+
 .disableSave {
   -webkit-user-select: none; /* Disable text selection on iOS */
   -webkit-touch-callout: none; /* Disable long-press context menu on iOS */
