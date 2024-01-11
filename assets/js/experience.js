@@ -5,10 +5,18 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
+    title: "EY Ripples Member (Education and Environment)",
+    cardImage: "assets/images/experience-page/eycsr.jpeg",
+    place: "EY Ripples - EY",
+    time: "(October, 2023 - Present)",
+    desp: "<li></li>",
+	socLink: "https://www.ey.com/en_in/corporate-responsibility",
+  },
+  {
     title: "CSR Member",
     cardImage: "assets/images/experience-page/kanaa.jpg",
     place: "Kanaa - Indium Software",
-    time: "(July, 2022 - Present)",
+    time: "(July, 2022 - October, 2023)",
     desp: "<li>Design engaging SEML modules tailored to the students' age and needs, covering topics like self-awareness, empathy, stress management, and communication.</li><li>Develop assessment tools to measure changes in students' socio-emotional well-being, capturing both qualitative and quantitative data.</li><li>Conduct regular sessions in schools, utilizing a variety of teaching methods such as discussions, role-playing, and experiential activities.</li><li>Foster a supportive atmosphere, encouraging students to share their experiences and concerns while guiding them through reflective exercises.</li><li>Analyze collected data to identify trends and areas for improvement, providing recommendations to enhance the program's outcomes over time.</li>",
 	socLink: "https://www.indiumsoftware.com/",
   },
