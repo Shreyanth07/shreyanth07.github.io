@@ -255,6 +255,32 @@
                             </svg>
                         </a>-->
                     </div>
+		    <div class="circ-container">
+        <div class="circ-circle" id="circle1">
+            <p class="circ-counter" id="counter1">0</p>
+            <p class="circ-text">Years of Industrial Work Experience</p>
+        </div>
+        <div class="circ-circle" id="circle2">
+            <p class="circ-counter" id="counter2">0</p>
+            <p class="circ-text">Academic and Industrial Projects Completed</p>
+        </div>
+        <div class="circ-circle" id="circle3">
+            <p class="circ-counter" id="counter3">0</p>
+            <p class="circ-text">Researches, patents and copyrights published</p>
+        </div>
+        <div class="circ-circle" id="circle4">
+            <p class="circ-counter" id="counter4">0</p>
+            <p class="circ-text">Academic and Industrial B-Learnings Completed</p>
+        </div>
+        <div class="circ-circle" id="circle5">
+            <p class="circ-counter" id="counter5">0</p>
+            <p class="circ-text">Achievements and Recognitions</p>
+        </div>
+        <div class="circ-circle" id="circle6">
+            <p class="circ-counter" id="counter6">0</p>
+            <p class="circ-text">Appreciations and Recommendations</p>
+        </div>
+    </div>
                 </div>
             </div>
         </div>
@@ -401,6 +427,32 @@
 		<script src='https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js'></script>
 		<script src="assets/js/particle.js"></script>
 		<script src="assets/js/cursor.js"></script>
+	    		    <script>
+        initCounters();
+
+        function initCounters() {
+            setNumber(42, 1);
+            setNumber(125, 2);
+            setNumber(5, 3);
+            setNumber(55, 4);
+            setNumber(66, 5);
+            setNumber(99, 6);
+        }
+
+        function setNumber(targetNumber, circleNumber) {
+            const counterElement = document.getElementById(`counter${circleNumber}`);
+            const startNumber = parseInt(counterElement.textContent) || 0;
+            let currentNumber = startNumber;
+            const interval = setInterval(() => {
+                currentNumber++;
+                counterElement.textContent = currentNumber;
+
+                if (currentNumber === targetNumber) {
+                    clearInterval(interval);
+                }
+            }, 20); // Adjust the interval as needed
+        }
+    </script>
 			<script>
       	document.addEventListener('contextmenu', event => {
 	    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
