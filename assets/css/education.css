@@ -410,7 +410,7 @@ header p {
   padding: 40px 30px 10px 30px;
 }
  .timeline-item:nth-child(even) .timeline-content .alignment {
-  position:absolute;
+  /*position:absolute;*/
   text-align: left;
   padding-right: 5px;
 } 
@@ -554,8 +554,9 @@ blockquote {
 }
 
 .alignment{
-  padding-left: 20px;
-  
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
     /* Media Query  header/footer */
@@ -653,11 +654,12 @@ blockquote {
     font-size: 152%;
   }
   .timelineHeading2{
-    font-size: 131%;
+    font-size: 2.9ch;
   font-weight: bolder;
   }
   .timelineHeading3{
     font-size: 2.9ch;
+	font-weight: bolder;
   }
 }
 
@@ -672,7 +674,8 @@ blockquote {
   }
                                                   /* Second  */
   .timelineHeading2{
-    font-size: 94%;
+    font-size: 2.9ch;
+	font-weight: bolder;
   }
   .date2{
     padding: 0px;
@@ -697,9 +700,14 @@ blockquote {
   }
 
   .timeline .timeline-content {
-    max-width: 100%;
-    width: auto;
+    max-width: 75%;
+    width: 75%;
     margin-left: 70px;
+  }
+  .timeline .timeline-img-header
+  {
+	  height: 5px;
+	  width: 10px;
   }
 
   .timeline .timeline-item:nth-child(even) .timeline-content {
@@ -737,7 +745,7 @@ blockquote {
   }
   @media (max-width:458px){
     .timelineHeading2{
-      font-size: 106%;
+      font-size: 122%;
     }
   }
   @media (max-width:453px){
@@ -758,15 +766,28 @@ blockquote {
   }
   @media (max-width:432px){
    .timeline-content{
-    font-size: 84%;
+    font-size: 50%;
    }
+    .timeline-img-header
+  {
+	  height: 15px;
+	  width: 20px;
+  }
     .timelineHeading3{
       font-size: 122%;
     }
+	.h6, h6 {
+		font-size: 75%
+	}		
   }
  @media(max-width:378px){
   .container{
     font-size: 80%;  
+  }
+      .timeline-img-header
+  {
+	  height: 15px;
+	  width: 20px;
   }
  }
   @media(max-width:346px){
