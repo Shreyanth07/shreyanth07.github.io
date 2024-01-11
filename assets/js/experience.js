@@ -6,7 +6,7 @@ const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
     title: "EY Ripples Member (Education and Environment)",
-    cardImage: "assets/images/experience-page/eycsr.jpeg",
+    cardImage: "assets/images/experience-page/eycsr.jpg",
     place: "EY Ripples - EY",
     time: "(October, 2023 - Present)",
     desp: "<li></li>",
