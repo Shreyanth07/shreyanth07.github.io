@@ -295,6 +295,216 @@ const research = [
       "The growing rise of peer-to-peer (P2P) multidimensional dataset models has boosted demand for effective nearest keyword set search approaches. In this paper, we suggest a novel approach termed Distributed Multi-Scale Hashing (DMSH) to overcome the issues associated with keyword-based search in P2P systems. DMSH combines the advantages of multi-scale hashing and distributed computing to accomplish scalable and accurate nearest keyword set retrieval. DMSH's distributed architecture efficiently distributes the computational burden across numerous nodes, ensuring efficient and parallel processing. The multi-scale hashing algorithm offers effective indexing and retrieval of multidimensional datasets, reducing search space and enhancing search efficiency. We illustrate the effectiveness and scalability of DMSH in comparison to existing techniques using extensive experiments on real-world datasets. The study contributes to the area by offering a distributed method for effective nearest keyword set search in P2P multidimensional dataset models. The suggested DMSH algorithm has higher performance, allowing users to efficiently extract relevant data from large-scale dispersed datasets.",
     absbox: "absPopup8",
   },
+
+  {
+    title:
+      "Design and Development of Smart Wearable-Technology Enhanced Learning for Specially Abled Students",
+    authors:
+      "Shreyanth S, Harshitha D S, Priyanka Agarwal, Kathiroli V and Niveditha S",
+    conferences:
+      "2nd International Conference on Best Innovative Teaching Strategies (ICON-BITS)",
+    researchYr: 2023,
+    citebox: "popup8",
+    image: "assets/images/research-page/papers/smart-wearable.png",
+	resLink: "",
+    citation: {
+      vancouver:
+        "",
+    },
+    abstract:
+      "",
+    absbox: "absPopup8",
+  },
+  {
+    title:
+      "Bayesian Optimized Random Forest Classifier for Improved Credit Card Fraud Detection: Overcoming Challenges and Limitations",
+    authors:
+      "Rajesh PK, Shreyanth S, Sarveshwaran R and Nithin Chary V",
+    conferences:
+      "2nd International Conference on Data Science and AI (ICDSAI)",
+    researchYr: 2023,
+    citebox: "popup8",
+    image: "assets/images/research-page/papers/bayesian.png",
+	resLink: "",
+    citation: {
+      vancouver:
+        "",
+    },
+    abstract:
+      "",
+    absbox: "absPopup8",
+  },
+  {
+    title:
+      "Predicting Malware Classification and Family using Machine Learning: A Cuckoo Environment Approach with Automated Feature Selection",
+    authors:
+      "Niveditha S, Prianka RR, Sathya K, Shreyanth S, Nandhagopal Subramani, Balakrishnan Deivasigamani and Karthikeyan S",
+    conferences:
+      "International Conference on Machine Learning and Data Engineering (ICMLDE)",
+    researchYr: 2023,
+    citebox: "popup8",
+    image: "assets/images/research-page/papers/cuckoo.png",
+	resLink: "",
+    citation: {
+      vancouver:
+        "",
+    },
+    abstract:
+      "",
+    absbox: "absPopup8",
+  },
+  {
+    title:
+      "NLP Based AI-Driven Resume Screening Solution for Efficient Candidate Selection",
+    authors:
+      "Sarveshwaran R, Karthikeyan S, Meenalosini V. Cruz, Shreyanth S, Niveditha S and PK Rajesh",
+    conferences:
+      "9th International Congress on Information and Communication Technology (ICICT)",
+    researchYr: 2023,
+    citebox: "popup8",
+    image: "assets/images/research-page/papers/resume.png",
+	resLink: "",
+    citation: {
+      vancouver:
+        "",
+    },
+    abstract:
+      "",
+    absbox: "absPopup8",
+  },
+  {
+    title:
+      "An Advanced Fully Residual Convolutional Neural Network for Segmentation and Classification of Brain Tumors Across Diverse Medical Image Modalities",
+    authors:
+      "Karthikeyan S, Shreyanth S, Niveditha S, Naveen S, Santhi G B and Gopirajan PV",
+    conferences:
+      "Journal of Computational Science",
+    researchYr: 2023,
+    citebox: "popup8",
+    image: "assets/images/research-page/papers/braintum.png",
+	resLink: "",
+    citation: {
+      vancouver:
+        "",
+    },
+    abstract:
+      "",
+    absbox: "absPopup8",
+  },
+  {
+    title:
+      "Memory-Augmented Deep Recurrent Neural Networks for Long-Term Dependency Learning in Natural Language Processing",
+    authors:
+      "Shreyanth S, Karthikeyan S, Prianka RR and Niveditha S",
+    conferences:
+      "Advanced Intelligent Systems",
+    researchYr: 2023,
+    citebox: "popup8",
+    image: "assets/images/research-page/papers/memory.png",
+	resLink: "",
+    citation: {
+      vancouver:
+        "",
+    },
+    abstract:
+      "",
+    absbox: "absPopup8",
+  },
+  {
+    title:
+      "Attention-based Quantum Transfer Learning and Transformers for Accurate Autism Detection in Children through Facial Image Analysis",
+    authors:
+      "Soham Bhoir, Harshal Dave, Karthikeyan S, Meenaloshini Vimal Cruz, Shreyanth S and Nandhagopal S",
+    conferences:
+      "IEEE Transactions on Cognitive and Developmental Systems",
+    researchYr: 2023,
+    citebox: "popup8",
+    image: "assets/images/research-page/papers/autism.png",
+	resLink: "",
+    citation: {
+      vancouver:
+        "",
+    },
+    abstract:
+      "",
+    absbox: "absPopup8",
+  },
+  {
+    title:
+      "Generative Adversarial Networks with Fused Attention method for Low-Resolution Images and Classification of Disease Severity Stages in Rice Plants",
+    authors:
+      "Sathya K, Rajalakshmi M, Shreyanth S and ",
+    conferences:
+      "",
+    researchYr: 2023,
+    citebox: "popup8",
+    image: "assets/images/research-page/papers/GAN.png",
+	resLink: "",
+    citation: {
+      vancouver:
+        "",
+    },
+    abstract:
+      "",
+    absbox: "absPopup8",
+  },
+  {
+    title:
+      "Machine Learning with Unsupervised Quantum Models",
+    authors:
+      "Sathya K, Rajalakshmi M, Shreyanth S and ",
+    conferences:
+      "Book titled 'Quantum Machine Learning: A Modern Approach' - CRC Press",
+    researchYr: 2023,
+    citebox: "popup8",
+    image: "assets/images/research-page/papers/GAN.png",
+	resLink: "",
+    citation: {
+      vancouver:
+        "",
+    },
+    abstract:
+      "",
+    absbox: "absPopup8",
+  },
+  {
+    title:
+      "Advancing Digital Forensic Intelligence: Leveraging EdgeAI Techniques for Real-time Threat Detection and Privacy Protection",
+    authors:
+      "Niveditha S, Shreyanth S, Delshi Howsalya Devi R, Sarveshwaran R and Rajesh P K",
+    conferences:
+      "Book titled 'Big Data & Edge Intelligence for Enhanced Cyber Defence: Principles and Research' - CRC Press",
+    researchYr: 2023,
+    citebox: "popup8",
+    image: "assets/images/research-page/papers/edgeai.png",
+	resLink: "",
+    citation: {
+      vancouver:
+        "",
+    },
+    abstract:
+      "",
+    absbox: "absPopup8",
+  },
+  {
+    title:
+      "Artificial Intelligence and Blockchain over Edge for Sustainable Cities",
+    authors:
+      "Delshi Howsalya Devi R, Thanapal P, Asis Jovin, Shreyanth S and Shoba R",
+    conferences:
+      "Book titled 'Big Data & Edge Intelligence for Enhanced Cyber Defence: Principles and Research' - CRC Press",
+    researchYr: 2023,
+    citebox: "popup8",
+    image: "assets/images/research-page/papers/blockchain.png",
+	resLink: "",
+    citation: {
+      vancouver:
+        "",
+    },
+    abstract:
+      "",
+    absbox: "absPopup8",
+  },
 ];
 const research2 = [
   {
