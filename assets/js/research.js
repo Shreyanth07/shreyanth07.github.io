@@ -416,7 +416,7 @@ const research = [
     authors:
       "Soham Bhoir, Harshal Dave, Karthikeyan S, Meenaloshini Vimal Cruz, Shreyanth S and Nandhagopal S",
     conferences:
-      "IEEE Transactions on Cognitive and Developmental Systems",
+      "Machine Vision and Applications",
     researchYr: 2023,
     citebox: "popup8",
     image: "assets/images/research-page/papers/autism.png",
