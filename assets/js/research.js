@@ -457,7 +457,7 @@ const research = [
       "Book titled 'Quantum Machine Learning: A Modern Approach' - CRC Press",
     researchYr: 2023,
     citebox: "popup8",
-    image: "assets/images/research-page/papers/GAN.png",
+    image: "assets/images/research-page/papers/quantum.png",
 	resLink: "",
     citation: {
       vancouver:
@@ -508,12 +508,34 @@ const research = [
 ];
 const research2 = [
   {
+    title: "AI based Walking Stick for Visually Impaired People",
+    authors:
+      "Chandan Kumar Dubey, Shreyanth S, Dr. Arpita Aggarwal, G. Ramachandran, Sarveshwaran R",
+    conferences:
+      "Application Number: IN 387581-001",
+    researchYr: 2022,
+    citebox: "popup1",
+    image: "assets/images/research-page/patents/walkstick.png",
+	/*patLink: "",*/
+  },
+  {
+    title: "AI & IOT based Pedestrian Traffic Display",
+    authors:
+      "Dinesh Mendhe, Akriti Dogra, Shreyanth Srikanth, Madugula Rithvik, Dr. K. Narasimha Raju, Sarveshwaran Rajagopal, Mrs.S. Jothimani and Dr.S.N. Sangeethaa",
+    conferences:
+      "Design Number: UK 6302396",
+    researchYr: 2023,
+    citebox: "popup1",
+    image: "assets/images/research-page/patents/pedestrian.png",
+	/*patLink: "",*/
+  },
+  {
     title: "Computer Webcam with Motion Detection Unit",
     authors:
       "Chilamakuru Nagesh, Dr. Charushila Axay Patel, Trupti Ulhas Ramteke, Thilak Sayila, Dr. Gopal Ghosh, Dr.Sunil Hanmant Khilari, Shreyanth Srikanth, Shaik Mahammad Rameez Arhan",
     conferences:
       "Design number: UK 6308357",
-    researchYr: 2023,
+    researchYr: 2022,
     citebox: "popup1",
     image: "assets/images/research-page/patents/webcam.png",
 	/*patLink: "",*/
@@ -524,7 +546,7 @@ const research2 = [
       "Hitendra Kumar Lautre, Dr. Govindan Vediyappan, Dr.MMary Adline Priya, Shreyanth Srikanth, Dr. Ravichandran Subramanian, Mr. Kunal Singla, Dinesh Kumar",
     conferences:
       "Design number: UK 6293790",
-    researchYr: 2023,
+    researchYr: 2021,
     citebox: "popup1",
     image: "assets/images/research-page/patents/wearable_device.png",
 	/*patLink: "",*/
@@ -535,7 +557,7 @@ const research2 = [
       "Shreyanth Srikanth , Renangi Sandeep, Dr. Jayachandran Shanmuga Sundaram, Rajesh Perinkulam Krishnan, Niveditha Srikanth, Manpreet Singh, Dr. Ashok Kumar Katta",
     conferences:
       "Design number: UK 6291782",
-    researchYr: 2023,
+    researchYr: 2021,
     citebox: "popup1",
     image: "assets/images/research-page/patents/robotic_arm.png",
 	/*patLink: "",*/
@@ -546,7 +568,7 @@ const research2 = [
       "Jaydeep Pravinbhai Parmar, Shreyanth S, V.G.Anisha Gnana Vincy, T.Suganya, Sarthak singh and Dr. Anu Tonk",
     conferences:
       "Application Number: IN 202321028592",
-    researchYr: 2023,
+    researchYr: 2022,
     citebox: "popup1",
     image: "assets/images/research-page/patents/power_grid.png",
 	/*patLink: "",*/
@@ -557,7 +579,7 @@ const research2 = [
       "Shreyanth S, Rajesh P K, Sarveshwaran R, Dr. Amar Saraswat, Nupur Aggarwal and Naveen Kumar",
     conferences:
       "Application Number: IN 202311027575",
-    researchYr: 2023,
+    researchYr: 2022,
     citebox: "popup1",
     image: "assets/images/research-page/patents/content_delivery.png",
 	/*patLink: "",*/
