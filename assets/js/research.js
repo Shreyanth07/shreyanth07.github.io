@@ -538,7 +538,7 @@ const research2 = [
     researchYr: 2022,
     citebox: "popup1",
     image: "assets/images/research-page/patents/webcam.png",
-	/*patLink: "",*/
+	patLink: "https://www.registered-design.service.gov.uk/find/6308357",
   },
   {
     title: "IOT based Wearable Device for Monitoring of Vital Body Health Information",
@@ -549,7 +549,7 @@ const research2 = [
     researchYr: 2021,
     citebox: "popup1",
     image: "assets/images/research-page/patents/wearable_device.png",
-	/*patLink: "",*/
+	patLink: "https://www.registered-design.service.gov.uk/find/6293790",
   },
   {
     title: "Artificial Intelligence based nano robotic arm to operate endoscope motion",
@@ -560,7 +560,7 @@ const research2 = [
     researchYr: 2021,
     citebox: "popup1",
     image: "assets/images/research-page/patents/robotic_arm.png",
-	/*patLink: "",*/
+	patLink: "https://www.registered-design.service.gov.uk/find/6291782",
   },
   {
     title: "ML based Hierarchical Grid Intelligence within a Power Grid to Control Distribution of Power",
