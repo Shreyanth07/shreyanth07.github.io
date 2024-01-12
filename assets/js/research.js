@@ -727,7 +727,7 @@ const fillData2 = () => {
     ({
       image,
       title,
-      /*patLink,*/
+      patLink,
       authors,
       conferences,
       researchYr,
@@ -741,7 +741,7 @@ const fillData2 = () => {
                             <img src="${image}" class="imgRes">
                         </span>
                     </div>
-                    <a class="paperTitle"> ${title} </a>
+		    <a href="${patLink}" class="paperTitle" target="_blank"> ${title} </a>
                     <div class = "authors"> ${authors} </div> 
                     
                     <div class="rConferences"> ${conferences} 
