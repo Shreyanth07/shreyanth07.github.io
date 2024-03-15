@@ -516,7 +516,7 @@ const research2 = [
     researchYr: 2022,
     citebox: "popup1",
     image: "assets/images/research-page/patents/walkstick.png",
-	/*patLink: "",*/
+	patLink: "https://search.ipindia.gov.in/DesignQRStatus/PDF_Viewer.aspx?AppNo=Mzg3NTgxLTAwMQ==&CNo=MTU5Mzk1",
   },
   {
     title: "AI & IOT based Pedestrian Traffic Display",
