@@ -302,7 +302,7 @@ const research = [
     authors:
       "Shreyanth S, Harshitha D S, Priyanka Agarwal, Kathiroli V and Niveditha S",
     conferences:
-      "2nd International Conference on Best Innovative Teaching Strategies (ICON-BITS)",
+      "2nd International Conference on Best Innovative Teaching Strategies (ICON-BITS) (In Production)",
     researchYr: 2023,
     citebox: "popup8",
     image: "assets/images/research-page/papers/smart-wearable.png",
@@ -321,7 +321,7 @@ const research = [
     authors:
       "Rajesh PK, Shreyanth S, Sarveshwaran R and Nithin Chary V",
     conferences:
-      "2nd International Conference on Data Science and AI (ICDSAI)",
+      "2nd International Conference on Data Science and AI (ICDSAI) (In Production)",
     researchYr: 2023,
     citebox: "popup8",
     image: "assets/images/research-page/papers/bayesian.png",
@@ -340,7 +340,7 @@ const research = [
     authors:
       "Niveditha S, Prianka RR, Sathya K, Shreyanth S, Nandhagopal Subramani, Balakrishnan Deivasigamani and Karthikeyan S",
     conferences:
-      "International Conference on Machine Learning and Data Engineering (ICMLDE)",
+      "International Conference on Machine Learning and Data Engineering (ICMLDE) (In Production)",
     researchYr: 2023,
     citebox: "popup8",
     image: "assets/images/research-page/papers/cuckoo.png",
@@ -359,7 +359,7 @@ const research = [
     authors:
       "Sarveshwaran R, Karthikeyan S, Meenalosini V. Cruz, Shreyanth S, Niveditha S and PK Rajesh",
     conferences:
-      "9th International Congress on Information and Communication Technology (ICICT)",
+      "9th International Congress on Information and Communication Technology (ICICT) (In Production)",
     researchYr: 2023,
     citebox: "popup8",
     image: "assets/images/research-page/papers/resume.png",
@@ -378,7 +378,7 @@ const research = [
     authors:
       "Karthikeyan S, Shreyanth S, Niveditha S, Naveen S, Santhi G B and Gopirajan PV",
     conferences:
-      "Journal of Computational Science",
+      "Computers in Biology and Medicine - In review",
     researchYr: 2023,
     citebox: "popup8",
     image: "assets/images/research-page/papers/braintum.png",
@@ -397,10 +397,29 @@ const research = [
     authors:
       "Shreyanth S, Karthikeyan S, Prianka RR and Niveditha S",
     conferences:
-      "Advanced Intelligent Systems",
+      "Advanced Intelligent Systems - In review",
     researchYr: 2023,
     citebox: "popup8",
     image: "assets/images/research-page/papers/memory.png",
+	resLink: "",
+    citation: {
+      vancouver:
+        "",
+    },
+    abstract:
+      "",
+    absbox: "absPopup8",
+  },
+  {
+    title:
+      "FluoroCNN: CNN based Fluorescent Neuronal Cell Analysis and Tracking",
+    authors:
+      "Niveditha S, Meenalosini Vimal Cruz, Shreyanth S, Karthikeyan S, Madhumitha Sivakumaran and Arun Kumar Subramaniam",
+    conferences:
+      "International Journal of Electrical and Computer Engineering (IJECE) - In review",
+    researchYr: 2024,
+    citebox: "popup8",
+    image: "assets/images/research-page/papers/fluoro.png",
 	resLink: "",
     citation: {
       vancouver:
@@ -416,7 +435,7 @@ const research = [
     authors:
       "Soham Bhoir, Harshal Dave, Karthikeyan S, Meenaloshini Vimal Cruz, Shreyanth S and Nandhagopal S",
     conferences:
-      "Machine Vision and Applications",
+      "Current Medical Imaging - In review",
     researchYr: 2023,
     citebox: "popup8",
     image: "assets/images/research-page/papers/autism.png",
@@ -436,7 +455,7 @@ const research = [
       "Sathya K, Rajalakshmi M, Shreyanth S and ",
     conferences:
       "",
-    researchYr: 2023,
+    researchYr: 2024,
     citebox: "popup8",
     image: "assets/images/research-page/papers/GAN.png",
 	resLink: "",
@@ -454,7 +473,7 @@ const research = [
     authors:
       "Sathya K, Rajalakshmi M, Shreyanth S and ",
     conferences:
-      "Book titled 'Quantum Machine Learning: A Modern Approach' - CRC Press",
+      "Book titled 'Quantum Machine Learning: A Modern Approach' - CRC Press (In Production)",
     researchYr: 2023,
     citebox: "popup8",
     image: "assets/images/research-page/papers/quantum.png",
@@ -473,7 +492,7 @@ const research = [
     authors:
       "Niveditha S, Shreyanth S, Delshi Howsalya Devi R, Sarveshwaran R and Rajesh P K",
     conferences:
-      "Book titled 'Big Data & Edge Intelligence for Enhanced Cyber Defence: Principles and Research' - CRC Press",
+      "Book titled 'Big Data & Edge Intelligence for Enhanced Cyber Defence: Principles and Research' - CRC Press (In Production)",
     researchYr: 2023,
     citebox: "popup8",
     image: "assets/images/research-page/papers/edgeai.png",
@@ -492,7 +511,7 @@ const research = [
     authors:
       "Delshi Howsalya Devi R, Thanapal P, Asis Jovin, Shreyanth S and Shoba R",
     conferences:
-      "Book titled 'Big Data & Edge Intelligence for Enhanced Cyber Defence: Principles and Research' - CRC Press",
+      "Book titled 'Big Data & Edge Intelligence for Enhanced Cyber Defence: Principles and Research' - CRC Press (In Production)",
     researchYr: 2023,
     citebox: "popup8",
     image: "assets/images/research-page/papers/blockchain.png",
